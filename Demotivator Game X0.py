@@ -184,9 +184,8 @@ def comp_turn(player, comp, board, i_last, j_last):
         return board
     # X-comp center, 0-player any -> X-comp further corner
     if sum(1 for i in range(3) for j in range(3) if board[i][j] == player) == 1:
-        l_comp = [2, random.randint(0, 1) * 2, 0]
-        i = sum(l_comp[k] for k in range(3) if [0, 1, 2][k] == i_last)
-        j = sum(l_comp[k] for k in range(3) if [0, 1, 2][k] == j_last)
+        d_comp = {0: 2, 1: random.randint(0, 1) * 2, 2: 0}
+        i, j = d_comp[i_last], d_comp[j_last]
         board[i][j] = comp
         return board
     # if comp is going to win at the next turn -> fill immediately winning diagonal, horizontal or vertical
