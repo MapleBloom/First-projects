@@ -5,8 +5,8 @@ Computer pick a number and guess it by itself.
 import numpy as np
 
 
-def guess(number:int, a:int, b:int, count:int=1)-> int:
-    """Algorithm culculates number
+def guess(number: int, a: int, b: int, count: int=1) -> int:
+    """Algorithm calculates number
 
     Args:
         number (int): number to guess
@@ -19,10 +19,10 @@ def guess(number:int, a:int, b:int, count:int=1)-> int:
     """
     prediction = int((a + b) / 2)   # makes prediction at the center of the interval
     return count if prediction == number else \
-           guess(number, *(a, prediction) if prediction > number else (prediction, b), count + 1)
+        guess(number, *(a, prediction) if prediction > number else (prediction, b), count + 1)
     
 
-def score_game(guess, min_n:int=1, max_n:int=100, games_number:int=1000)-> list[int]:
+def score_game(guess, min_n: int=1, max_n: int=100, games_number: int=1000) -> tuple[int, int]:
     """Receive number of iterations in every game with random int and summarise it
 
     Args:
@@ -32,7 +32,7 @@ def score_game(guess, min_n:int=1, max_n:int=100, games_number:int=1000)-> list[
         games_number (int, optional): number of games to call. Defaults to 1000.
 
     Returns:
-        list[int]: mean number of iterations, maximum number of iterations
+        tuple[int, int]: mean number of iterations, maximum number of iterations
     """
     count_it = [''] * games_number  # list of iterations in every game
     np.random.seed(1)
@@ -49,5 +49,5 @@ def score_game(guess, min_n:int=1, max_n:int=100, games_number:int=1000)-> list[
 
 
 if __name__ == '__main__':
-   # RUN
+    # RUN
     score_game(guess, min_n=1, max_n=100, games_number=1000)
