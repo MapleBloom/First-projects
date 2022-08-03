@@ -1,8 +1,8 @@
 # Guess number
 
 ## Content  
-[1. Description](https://github.com/MapleBloom/First-projects/edit/main/guess-number/README.md#Description)  
-[2. Case to solve](.README.md#Case-to-solve)  
+[1. Description](https://github.com/MapleBloom/First-projects/tree/main/guess-number/README.md#Description)  
+[2. Case to solve](https://github.com/MapleBloom/First-projects/tree/main/guess-number/README.md#Case-to-solve)  
 [3. Data info](.README.md#Data-info)  
 [4. Stages of work](.README.md#Stages-of-work)  
 [5. Result](.README.md#Result)    
