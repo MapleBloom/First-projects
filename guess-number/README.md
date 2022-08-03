@@ -1,17 +1,17 @@
 # Guess number
 
 ## Content  
-[1. Description](https://github.com/MapleBloom/First-projects/tree/main/guess-number/README.md#Description)  
-[2. Case to solve](https://github.com/MapleBloom/First-projects/tree/main/guess-number/README.md#Case-to-solve)  
-[3. Data info](.README.md#Data-info)  
-[4. Stages of work](.README.md#Stages-of-work)  
-[5. Result](.README.md#Result)    
-[6. Conclusions](.README.md#Conclusions) 
+[1. Description](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Description)  
+[2. Case to solve](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Case-to-solve)  
+[3. Data info](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Data-info)  
+[4. Stages of work](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Stages-of-work)  
+[5. Result](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Result)    
+[6. Conclusions](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#conclusions) 
 
 ### Description
 Guess a random number at minimum iterations.
 
-:arrow_up: [to content](_)
+:arrow_up: [to content](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Content)
 
 
 ### Case to solve    
@@ -31,25 +31,25 @@ Practice a good python code.
 ### Data info
 ....
   
-:arrow_up: [to content](.README.md#Content)
+:arrow_up: [to content](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Content)
 
 
 ### Stages of work  
 ....
 
-:arrow_up: [to content](.README.md#Content)
+:arrow_up: [to content](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Content)
 
 
 ### Result:  
 ....
 
-:arrow_up: [to content](.README.md#Content)
+:arrow_up: [to content](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Content)
 
 
 ### Conclusions:  
 ....
 
-:arrow_up: [to content](.README.md#Content)
+:arrow_up: [to content](https://github.com/MapleBloom/First-projects/blob/main/guess-number/README.md#Content)
 
 
 Star ⭐️⭐️⭐️ my project if you like it or think it is useful
