@@ -26,7 +26,7 @@ def score_game(guess, min_n: int=1, max_n: int=100, games_number: int=1000) -> t
     """Receive number of iterations in every game with random int and summarise it
 
     Args:
-        guess (_type_): function to guess
+        guess_ (_type_): function to guess
         min_n (int, optional): lower border of interval to consider. Defaults to 1.
         max_n (int, optional): upper border of interval to consider inclusive. Defaults to 100.
         games_number (int, optional): number of games to call. Defaults to 1000.
