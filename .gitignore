@@ -1,9 +1,12 @@
 __pycache__/
+.idea/
+venv/
 *.pyc
 .ipynb_checkpoints
 *.egg-info
 /env
 /.env
+crypto_bot/test.py
 test0.py
 test10.ipynb
 settings*
