@@ -55,7 +55,7 @@ class CryptoExchange:
 
     @staticmethod
     def exchange(message: telebot.types.Message) -> str:
-        mes = message.text.lower().split(' ')
+        mes = message.text.lower().split()
         # Get amount and currencies from message, return decision or exceptions
         try:
             if len(mes) > 3:
@@ -64,7 +64,7 @@ class CryptoExchange:
                 raise ExchangeException('Not enough parameters - 3 expected')
             amount, from_cur, to_cur = mes
             try:
-                amount = float(amount)
+                amount = float(amount.replace(',', '.'))
             except ValueError:
                 raise ExchangeException('First parameter should be a number')
             # Abbreviate to ticker in case of full currency name
