@@ -10,5 +10,5 @@ crypto_bot/test.py
 test0.py
 test10.ipynb
 settings*
-PR-1_HeadHanter_data_analysis/data/
+PR-1_HeadHunter_data_analysis/data/
 !dst-3.0_16_1_hh_database_cleaned.csv
