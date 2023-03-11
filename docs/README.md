@@ -1,4 +1,4 @@
-# Tree Cat pages with CSS styles
+# Three Cat pages with CSS styles
 From the [Skillfactory courses](https://skillfactory.ru)
 
 ## HomeWork E1. Web basics
